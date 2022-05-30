@@ -1,0 +1,10 @@
+public class Ghostbusters {
+  
+  public static String ghostBusters(String building) {
+    // get rid of ghosts!
+    if (building.contains(" ")){
+      return building.replace(" ", "");
+    }
+    return "You just wanted my autograph didn't you?";
+  }
+}
